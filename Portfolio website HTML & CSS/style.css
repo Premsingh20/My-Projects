@@ -20,11 +20,11 @@ body {
 }
 
 h1 {
-    font-size: 3rem;
+    font-size: 5rem;
 }
 
 h2 {
-    font-size: 2rem;
+    font-size: 3rem;
 }
 
 h3 {
@@ -54,9 +54,38 @@ ul {
 }
 
 .container {
-    max-width: 1180px;
+    max-width: 1280px;
     margin-inline: auto;
     padding-inline: var(--padding-inline-section);
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+}
+
+.hover-link {
+    color: var(--primary-text-color);
+    transition: 0.2s ease-out;
+}
+
+.hover-link:hover {
+    color: var(--accent-color);
+}
+
+.primary-button {
+    background-color: var(--accent-color);
+    border-radius: 6px;
+    font-weight: 700;
+    color: white;
+    box-shadow: 0 0 2px var(--secondary-text-color);
+    padding: 12px 24px;
+    transition: 0.2s ease-out;
+}
+
+.primary-button:hover {
+    background-color: var(--accent-color-dark);
+    color: white !important;
 }
 
 /* top banner */
@@ -70,3 +99,24 @@ ul {
     text-align: center;
     padding: 15px 30px;
 }
+
+/* nav bar */
+.main-nav {
+    margin-top: 20px;
+    justify-content: space-between;
+}
+
+.company-logo img {
+    width: 120px;
+}
+
+.nav-links {
+    flex-basis: 730px;
+}
+
+.nav-links ul {
+    justify-content: end;
+    gap: 40px;
+}
+
+/* Header section */
