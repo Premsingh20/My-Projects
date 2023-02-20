@@ -195,6 +195,7 @@ main .left-hero-section {
     padding: 0 352px 100px 352px ;
     gap: 200px;
     align-items: center;
+    justify-content: center;
 }
 
 .features-section-1 div h1 {
@@ -219,4 +220,66 @@ main .left-hero-section {
     width: 200px;
 }
 
+/* features section 2 */
+.features-section-2 {
+    display: flex;
+    padding: 0 352px 100px 352px;
+    gap: 200px;
+    align-items: center;
+    justify-content: center;
+}
+
+.features-section-2 div h1 {
+    font-size: 86px;
+    margin-bottom: 12px;
+    color: #dddddd;
+}
+
+.features-section-2 div h2 {
+    font-size: 32px;
+    margin-bottom: 32px;
+    color: #333333;
+}
+
+.features-section-2 div p {
+    font-size: 18px;line-height: 32.4px;
+    color: #555555;
+    width: 550px;
+}
+
+.features-section-2 img {
+    width: 200px;
+}
+
+/* features section 3 */
+/* features section 2 */
+.features-section-3 {
+    display: flex;
+    padding: 0 352px 100px 352px;
+    gap: 200px;
+    align-items: center;
+    justify-content: center;
+}
+
+.features-section-3 div h1 {
+    font-size: 86px;
+    margin-bottom: 12px;
+    color: #dddddd;
+}
+
+.features-section-3 div h2 {
+    font-size: 32px;
+    margin-bottom: 32px;
+    color: #333333;
+}
+
+.features-section-3 div p {
+    font-size: 18px;line-height: 32.4px;
+    color: #555555;
+    width: 550px;
+}
+
+.features-section-3 img {
+    width: 200px;
+}
 
