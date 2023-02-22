@@ -64,9 +64,10 @@ nav img {
 main {
     background-color: #fdf2e9;
     display: flex;
-    padding: 30px 300px 80px 300px;
+    padding: 48px 110px 96px 110px;
     gap: 100px;
     justify-content: center;
+    align-items: center;
 }
 
 .right-hero-img {
@@ -75,7 +76,7 @@ main {
 
 .left-hero-section {
     position: relative;
-    width: 600px;
+    width: 60%;
 }
 
 main div h1 {
@@ -223,7 +224,7 @@ main .left-hero-section {
 /* features section 2 */
 .features-section-2 {
     display: flex;
-    padding: 0 352px 100px 352px;
+    padding: 0 252px 100px 452px;
     gap: 200px;
     align-items: center;
     justify-content: center;
@@ -284,5 +285,4 @@ main .left-hero-section {
 }
 
 /* Meals section */
-
 
