@@ -311,6 +311,9 @@ main .left-hero-section {
 .meals-card {
     background-color: white;
     margin: 30px;
+    display: flex;
+    gap: 50px;
+    margin: 0 80px 0 80px;
     
 }
 
@@ -319,5 +322,49 @@ main .left-hero-section {
     height: 240px;
     object-fit: cover;
     border-radius: 15px 15px 0 0 ;
-    margin-block: 30px;
+    margin-bottom: 30px;
+}
+
+.card {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    width: fit-content;
+    margin-bottom: 50px;
+    border-radius: 8px;
+}
+
+.card-tag {
+    font-weight: 600;
+    background-color: #51cf66;
+    padding: 3px 5px;
+    width: fit-content;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+.card-details {
+    padding: 0 48px;
+}
+
+.card-details h2 {
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+
+.tag1 {
+    background-color: #94d82d;
+}
+
+.tag2 {
+    background-color: #ffd43b;
+}
+
+.multiple-tags {
+    display: flex;
+    gap: 5px;
+}
+
+.card-info {
+    margin-bottom: 15px;
 }
